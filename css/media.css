@@ -1,0 +1,443 @@
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+/*navbar start*/
+	.mogo_logo{
+		color: black;
+	}
+	.navbar_mogo .mogobar_nav .mogo_link, .mogo_shop, .m_h_btn{
+    	color: black;
+	}
+	.mogobar_nav {
+	    margin-bottom: 85px;
+	}
+	.mogo_link{
+    	margin: 15px 0px 3px 2px;
+	}
+	.mogo_shop{
+		margin: 15px 0px 10px 4px;
+	} 
+	.mogo_btn_search {
+		top: -4px;
+    	right: 23px;
+	}
+	.mogo_link:hover::after {
+    width: 7ch;
+	}
+/*navbar end*/
+/*slider start*/
+.m_s_text {
+        margin-top: 106px;
+}
+.m_s_h2{
+	font-size: 30px;
+}
+.m_s_h1{
+    font-size: 50px;
+	}
+.slick-slide {
+    padding: 200px 0 120px;
+}
+.progressBarContainer {
+    width: 38%;
+    left: 32%;
+}
+.progressBarContainer div {
+	width: 20%;
+}
+.m_s_h3 {
+    font-size: 11px;
+}
+.m_s_number {
+    font-size: 15.5px
+}
+/*slider end*/
+
+/*"about us" start*/
+	.about_img{
+		margin-bottom: 40px;
+	}
+
+	.about_text{
+		margin-top: 80px;
+	}
+	.about_p{
+		margin-bottom: 50px;
+	}
+
+	.text {
+	  font-size: 20px;
+	}
+	.o_icon{
+	  font-size: 24px;
+	}
+/*"about us" end*/
+
+
+/*counter up start*/
+.counter_modify{
+    font-size: 35px;
+}
+
+.counter_h2{
+    margin-top: 20px;
+    font-size: 10px;
+}
+/*conter up end*/
+
+	/*features start*/
+	.c_padding{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	}
+	
+	.c_h1{
+	font-size: 26px;
+	}
+
+	.c_p{
+	font-size: 17px;;
+	letter-spacing: 0;
+    word-spacing: 0;
+}
+	.c_mt_70{
+	margin-top: 30px;
+
+	}
+	.si_icon{
+	font-size: 45px;
+	}
+
+	.si_text{
+		margin-top: 0;
+		text-align: center;
+	}
+	
+	/*features end*/
+
+		/*accordian start*/
+	.man_jpg{
+		padding-bottom: 50px;
+	}
+	/*accordian end*/
+	
+	/*quote start*/
+	.quote_item {
+	    margin-left: 0%;
+	    margin-bottom: 0%;
+	}
+	/*quote end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+/*navbar start*/
+	.mogo_logo{
+		color: black;
+	}
+	.navbar_mogo .mogobar_nav .mogo_link, .mogo_shop, .m_h_btn{
+    	color: black;
+	}
+	.mogobar_nav {
+	    margin-bottom: 85px;
+	}
+	.mogo_link{
+    	margin: 10px 0px 3px 2px;
+	}
+	.mogo_shop{
+		margin: 10px 0px 10px 4px;
+	} 
+	.mogo_btn_search {
+		top: -4px;
+    	right: 23px;
+	}
+	.mogo_link:hover::after {
+    width: 12%;
+	}
+/*navbar end*/
+
+/*slider start*/
+.m_s_h2{
+	font-size: 50px;
+}
+.m_s_h1{
+    font-size: 80px;
+	}
+.progressBarContainer {
+    width: 75%;
+    left: 15%;
+}
+.progressBarContainer div {
+	width: 20%;
+}
+.m_s_h3 {
+    font-size: 13px;
+}
+.m_s_number {
+    font-size: 16px;
+}
+/*slider end*/
+
+/*"about us" start*/
+	.about_text{
+		margin-top: 80px;
+	}
+	.about_p{
+		margin-bottom: 50px;
+	}
+
+	.text {
+	  	font-size: 16px;
+		white-space: nowrap;
+    	top: 67%;
+    	left: 57%;
+  		-webkit-transform: translate(-67%, -57%);
+  		-ms-transform: translate(-67%, -57%);
+  		transform: translate(-67%, -57%);
+  		text-align: center;
+	}
+	.o_icon{
+	  font-size: 14px;
+	}
+/*"about us" end*/
+
+/*counter up start*/
+.counter_plug{
+  padding: 60px 0 ; 
+}
+.counter_modify{
+    font-size: 35px;
+}
+.counter_h2{
+    margin-top: 16px;
+    font-size: 16px;
+}
+/*conter up end*/
+
+
+	/*features start*/
+	.c_padding{
+	padding-top: 60px;
+	padding-bottom: 80px;
+	}
+
+	.c_mt_70{
+	margin-top: 40px;
+
+	}
+
+	.si_text {
+		margin-top: 0px;
+		text-align: center;
+	}
+	/*features end*/
+
+	/*accordian start*/
+	.man_jpg{
+		padding-bottom: 50px;
+	}
+	/*accordian end*/
+
+	/*quote start*/
+	.quote_item {
+	    margin-left: 0%;
+	    margin-bottom: 0%;
+	}
+	/*quote end*/
+
+} 
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*navbar start*/
+	.mogo_logo{
+		color: black;
+	}
+	.navbar_mogo .mogobar_nav .mogo_link, .mogo_shop, .m_h_btn{
+    	color: black;
+	}
+	.mogobar_nav {
+	    margin-bottom: 85px;
+	}
+	.mogo_link{
+    	margin: 10px 0px 3px 2px;
+	}
+	.mogo_shop{
+		margin: 10px 0px 10px 4px;
+	} 
+	.mogo_btn_search {
+		top: -4px;
+    	right: 23px;
+	}
+	.mogo_link:hover::after {
+    width: 12%;
+	}
+/*navbar end*/
+
+/*slider start*/
+
+	.m_s_h1{
+    font-size: 90px;
+	}
+
+	.progressBarContainer {
+    width: 76%;
+    left: 12%;
+}
+/*slider end*/
+
+/*"about us" start*/
+	.about_text{
+		margin-top: 80px;
+	}
+	.about_p{
+		margin-bottom: 50px;
+	}
+
+	.text {
+	  font-size: 15px;
+	}
+	.o_icon{
+	  font-size: 20px;
+	}
+/*"about us" end*/
+
+
+	/*feature start*/
+	.c_padding{
+	padding-top: 80px;
+	padding-bottom: 100px;
+
+	}
+	.c_mt_70{
+	margin-top: 50px;
+	}
+	/*feature end*/
+
+	/*accordian start*/
+	.man_jpg{
+	  width: 100%;
+	  height: 100%;
+	  padding-bottom: 50px;
+	}
+	/*accordian end*/
+	/*quote start*/
+	.quote_item {
+	    margin-left: 14%;
+	    margin-bottom: 1%;
+	}
+	/*quote end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*navbar start*/
+
+		/*navbar end*/
+
+	.progressBarContainer {
+	    width: 58%;
+	    left: 22%;
+	}
+
+	/*slider start*/
+
+	.m_s_h1{
+    font-size: 100px;
+	}
+	/*"about us" start*/
+	.about_text{
+		margin-top: 80px;
+	}
+	.about_p{
+		margin-bottom: 60px;
+	}
+
+
+	/*"about us" end*/
+
+	/*counter up start*/
+
+	.counter_h2{
+	    margin-top: 16px;
+	    font-size: 16px;
+	}
+	/*conter up end*/
+
+	} 
+	/*accordian start*/
+	.man_jpg{
+	  width: 100%;
+	  height: 100%;
+	}
+	/*accordian end*/
+
+	
+}
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	/*slider start*/
+
+	.m_s_h1{
+    font-size: 100px;
+	}
+	.progressBarContainer{
+	    width: 48%;
+	    left: 40%;
+	}
+/*accordian start*/
+		.man_jpg{
+  		height: 90%;
+	}
+/*accordian end*/
+		
+}
+
+@media (min-width: 1400px) and (max-width: 1699.98px) { 
+	.progressBarContainer {
+	    width: 41%;
+	    left: 30%;
+	}
+	/*accordian start*/
+		.man_jpg{
+  		height: 90%;
+	}
+	/*accordian end*/
+}
+
+@media (min-width: 1700px) and (max-width: 1999.98px) { 
+	.progressBarContainer {
+	    width: 34%;
+	    left: 34%;
+	}
+	/*accordian start*/
+		.man_jpg{
+  		height: 90%;
+	}
+	/*accordian end*/
+	
+	/*quote start*/
+
+	/*quote end*/
+}
+
+
+/*Extra Etra large devices (large desktops, 1200px and up)*/
+@media (min-width: 2000px) { 
+	.progressBarContainer {
+	    width: 28%;
+	    left: 37%;
+	}
+
+	/*accordian start*/
+		.man_jpg{
+  		height: 90%;
+	}
+	/*accordian end*/
+}
+
