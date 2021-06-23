@@ -4,7 +4,7 @@ $(".slider").slick({
   arrows: false,
   dots: false,
   autoplay: false,
-  speed: 10000000,
+  speed: 2000,
   slidesToShow: 1,
   slidesToScroll: 1,
 
